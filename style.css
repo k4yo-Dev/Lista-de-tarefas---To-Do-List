@@ -70,7 +70,7 @@ body {
 }
 
 #bnt-ok {
-  background-color: rgb(100, 192, 9);
+  background-color: rgb(87, 159, 15);
   border: none;
   color: rgb(244, 238, 238);
   padding: 0.4rem 0.8rem;
@@ -85,5 +85,68 @@ body {
 }
 
 #bnt-ok:hover {
-  background-color: rgba(71, 134, 9, 0.8);
+  background-color: rgba(69, 124, 14, 0.8);
+}
+
+.bnt-edit {
+  background-color: rgb(39, 69, 134);
+  border: none;
+  color: rgb(3, 140, 83);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.bnt-edit:hover {
+  background-color: rgb(56, 100, 145);
+}
+
+#to-do-list li div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#input-user {
+  border: none;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 120px;
+}
+
+#btn-user {
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  background-color: dimgrey;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#btn-user:hover {
+  background-color: lightslategrey;
+}
+
+#btn-edit-user {
+  border: none;
+  background-color: transparent;
+  margin-top: -1.5rem;
+  color: dimgrey;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+#btn-edit-user:hover {
+  color: white;
 }
